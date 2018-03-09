@@ -1,0 +1,13 @@
+line_length:
+  - 300 # warning
+  - 400 # error
+
+force_cast: warning
+
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Carthage
+  - Pods
+  - eggs/Library
+
+disabled_rules: # rule identifiers to exclude from running
+  - trailing_whitespace
