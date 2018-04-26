@@ -28,6 +28,12 @@ class Nest: SKNode {
         self.addChild(nestFront)
         
         self.position = position
+        
+        //self.physicsBody = SKPhysicsBody(edgeFrom: CGPoint(x: 0, y: -20), to: CGPoint(x: nestTex.size().width, y: -20))
+        
+        self.physicsBody = SKPhysicsBody(texture: nestFrontTex, size: nestFrontTex.size())
+        self.physicsBody?.isDynamic = false
+        //self.physicsBody?.affectedByGravity = false
     }
     
     required init?(coder aDecoder: NSCoder) {

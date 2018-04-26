@@ -16,6 +16,9 @@ class Egg: SKSpriteNode, GameSprite {
         super.init(texture: imageTexture, color: .clear, size: imageTexture.size())
         self.zPosition = ZIndex.egg
         self.position = position
+        
+        self.physicsBody = SKPhysicsBody(texture: imageTexture, size: imageTexture.size())
+        self.physicsBody?.allowsRotation = false
     }
     
     required init?(coder aDecoder: NSCoder) {
