@@ -15,7 +15,8 @@ class GameViewController: UIViewController {
     override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
         
-        let scene = GameScene()
+        //let scene = GameScene()
+        let scene = ExampleScene()
         
         let skView = self.view as! SKView
         skView.showsFPS = true
@@ -24,7 +25,7 @@ class GameViewController: UIViewController {
         scene.scaleMode = .aspectFill
         
         scene.size = view.bounds.size
-        scene.backgroundColor = UIColor.white
+        scene.backgroundColor = 0xcdf5ff.toUIColor()
         
         skView.presentScene(scene)
     }

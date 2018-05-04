@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040523FB209C710000640BC0 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040523FA209C710000640BC0 /* UIColor+Extension.swift */; };
+		04052401209C7EF600640BC0 /* ExampleScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04052400209C7EF600640BC0 /* ExampleScene.swift */; };
 		04D7781D20528A0D00A87FC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D7781C20528A0D00A87FC9 /* AppDelegate.swift */; };
 		04D7782120528A0D00A87FC9 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 04D7782020528A0D00A87FC9 /* Actions.sks */; };
 		04D7782320528A0D00A87FC9 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D7782220528A0D00A87FC9 /* GameScene.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040523FA209C710000640BC0 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		04052400209C7EF600640BC0 /* ExampleScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleScene.swift; sourceTree = "<group>"; };
 		04D7781920528A0D00A87FC9 /* eggs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eggs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04D7781C20528A0D00A87FC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04D7782020528A0D00A87FC9 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -85,6 +89,8 @@
 				04FA7B2920919CC800D49EFD /* Egg.swift */,
 				04FA7B2B2091A41600D49EFD /* Nest.swift */,
 				04FA7B2D2091A5B900D49EFD /* ZIndex.swift */,
+				040523FA209C710000640BC0 /* UIColor+Extension.swift */,
+				04052400209C7EF600640BC0 /* ExampleScene.swift */,
 			);
 			path = eggs;
 			sourceTree = "<group>";
@@ -250,11 +256,13 @@
 			files = (
 				04FA7B2A20919CC800D49EFD /* Egg.swift in Sources */,
 				04FA7B2820919C3600D49EFD /* GameSprite.swift in Sources */,
+				04052401209C7EF600640BC0 /* ExampleScene.swift in Sources */,
 				04D7782320528A0D00A87FC9 /* GameScene.swift in Sources */,
 				04FA7B2C2091A41600D49EFD /* Nest.swift in Sources */,
 				04D7782520528A0D00A87FC9 /* GameViewController.swift in Sources */,
 				04FA7B2E2091A5B900D49EFD /* ZIndex.swift in Sources */,
 				04D7781D20528A0D00A87FC9 /* AppDelegate.swift in Sources */,
+				040523FB209C710000640BC0 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
